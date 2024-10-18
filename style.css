@@ -1,0 +1,309 @@
+* {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         transition: all 0.4s linear;
+}
+
+body {
+         font-family: "Karla", sans-serif;
+}
+
+header {
+         padding: 0px 165px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         height: 80px;
+}
+
+a {
+         text-decoration: none;
+         color: black;
+         opacity: 60%;
+         transition: all 0.3s liner;
+}
+
+a:hover {
+         transition: all 0.3s linear;
+         opacity: 100%;
+}
+
+nav {
+         width: 500px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+}
+
+.btn1 {
+         width: 146px;
+         height: 40px;
+         background: none;
+         border: 3px solid black;
+         font-size: 13px;
+         font-weight: 700;
+         line-height: 15.2px;
+         letter-spacing: 1.5px;
+         text-align: center;
+}
+
+.box1 {
+         margin-bottom: 370px;
+         height: 600px;
+         background: #2D2641;
+}
+
+.box {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+}
+
+.oyla {
+         position: relative;
+         top: 105px;
+}
+
+.chiziq {
+         position: absolute;
+         top: 500px;
+}
+
+.left {
+         width: 540px;
+}
+
+.kichik {
+         color: white;
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 26px;
+         text-align: left;
+         margin-bottom: 30px;
+}
+
+span {
+         width: 150px;
+         height: 2px;
+         color: white;
+         margin-bottom: 60px;
+}
+
+button:hover {
+         transition: all 0.4s linear;
+         background-color: black;
+         color: white;
+         border: 2px solid white;
+         cursor: pointer;
+}
+
+.katta {
+         color: white;
+         font-size: 72px;
+         font-weight: 400;
+         line-height: 64px;
+         letter-spacing: -1px;
+         text-align: left;
+         padding-bottom: 30px;
+}
+
+.btn2 {
+         width: 146px;
+         height: 40px;
+         background: none;
+         border: 3px solid white;
+         font-size: 13px;
+         font-weight: 700;
+         line-height: 15.2px;
+         letter-spacing: 1.5px;
+         text-align: center;
+         color: white;
+}
+
+.card {
+         width: 350px;
+         height: 250px;
+}
+
+.box2 {
+         height: 480px;
+         margin-bottom: 168px;
+}
+
+.box3 {
+         margin-top: 115px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+}
+
+.katta2 {
+         font-size: 72px;
+         font-weight: 400;
+         line-height: 64px;
+         letter-spacing: -1px;
+         text-align: left;
+         margin-left: 90px;
+}
+
+h2 {
+         margin-bottom: 16px;
+         margin-top: 32px;
+}
+
+.box4 {
+         height: 250px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         background-color: #2D2641;
+         background-image: url('./Group 10.svg');
+         background-repeat: no-repeat;
+         background-position-x: 1080px;
+}
+
+.katta3 {
+         font-size: 56px;
+         font-weight: 400;
+         line-height: 56px;
+         letter-spacing: -0.7777777910232544px;
+         text-align: left;
+         color: white;
+}
+
+.left2 {
+         width: 475px;
+}
+
+footer {
+         height: 400px;
+         background-image: url('./Group\ 22.svg');
+         background-repeat: no-repeat;
+}
+
+.navbar {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+}
+
+.hammasi {
+         width: 1110px;
+         height: 265px;
+         margin: auto;
+         padding-top: 64px;
+}
+
+.icon {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         width: 200px;
+}
+
+.cardd {
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         text-align: left;
+}
+
+.qora {
+         text-align: left;
+         margin-bottom: 10px;
+         margin-top: 10px;
+
+}
+
+.xira {
+         opacity: 65%;
+         font-size: 15px;
+         font-weight: 700;
+         line-height: 15.2px;
+         letter-spacing: 1.5px;
+         text-align: left;
+}
+
+p {
+         padding: 0px;
+         text-align: left;
+}
+
+.cards {
+         margin-top: 100px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+}
+
+.salom {
+         margin-top: 25px;
+         margin-bottom: 16px;
+}
+
+.menu {
+         display: none;
+}
+
+@media(max-width:1092px) {
+         .menu {
+                  display: block;
+         }
+
+         nav {
+                  display: none;
+         }
+
+         .box,
+         .box1,
+         .box2,
+         .box3,
+         .box4,
+         .cards,
+         .navbar {
+
+                  text-align: center;
+                  flex-direction: column;
+         }
+
+         .navbar {
+                  height: 200px;
+         }
+
+         .box1 {
+                  margin-bottom: 0;
+                  height: 1100px;
+         }
+
+         .katta,
+         .kichik,
+         .katta2,
+         .katta3 {
+                  margin-top: 10px;
+                  margin-left: 0;
+                  padding-left: 0;
+                  text-align: center;
+         }
+
+
+         p {
+                  text-align: center;
+         }
+
+         .icon {
+                  margin-bottom: 70px;
+         }
+
+         footer {
+                  height: 1300px;
+         }
+
+         .cardd {
+                  margin-top: 100px;
+         }
+
+         .box2 {
+                  height: 800px;
+         }
+}
